@@ -1,11 +1,20 @@
-def reverse_each_word(sentence)
+#def reverse_each_word(sentence)
   
-reversed = (sentence.split.map do |word|
-    word.reverse
-  end).join(' ')
+#reversed = (sentence.split.map do |word|
+ #   word.reverse
+  #end).join(' ')
+# end
+
+def reverse_eahh_word(string)
+ string = string.split('')
+ reversed_string = []
+ 
+ string.each do |char|
+  reversed_string.unshift(char)
+ end
+ 
+ return reversed_string.join('')
 end
-
-
 
 
 def reverse_each_word(string)

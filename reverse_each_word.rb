@@ -6,6 +6,8 @@ reversed = (sentence.split.map do |word|
 end
 
 
+
+
 def reverse_each_word(string)
 string = string.split(" ")
 i = 0
